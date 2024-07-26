@@ -8,7 +8,7 @@ const getTotalIsles = function (grid) {
 
   const cols =grid[0].length;
 
-  function assert(r ,c)
+  function (r ,c)
 
 
 };
