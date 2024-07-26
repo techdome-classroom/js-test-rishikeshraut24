@@ -30,7 +30,7 @@ const getTotalIsles = function (grid) {
       }
     }
   }
-  
+  return count;
 
 
 };
