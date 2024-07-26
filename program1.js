@@ -21,6 +21,7 @@ const getTotalIsles = function (grid) {
     dfs(r ,c+ c);
 
   }
+  for(let i=0; i<rows; i++)
 
 
 };
