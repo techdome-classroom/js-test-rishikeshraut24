@@ -9,7 +9,9 @@ const getTotalIsles = function (grid) {
   const cols =grid[0].length;
 
   function dfs(r ,c){
-    if(r < 0 || c<0 || r >= rows || c >= cols || grid[r][c] == 'w')
+    if(r < 0 || c<0 || r >= rows || c >= cols || grid[r][c] == 'w'){
+      return;
+    }
   }
 
 
